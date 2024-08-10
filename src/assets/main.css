@@ -1,0 +1,100 @@
+body {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Phetsarath OT", sans-serif;
+}
+
+.text-center {
+  font-family: "Noto Sans Lao", sans-serif;
+  color: rgb(238, 53, 245);
+}
+
+.text {
+  text-align: center;
+}
+
+.pa-2 {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  cursor: pointer;
+}
+
+h4:hover {
+  color: red;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bg-pink {
+  margin-right: 60px;
+}
+
+.contect-btn {
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 100px;
+  height: auto;
+}
+
+.text-app {
+  font-size: 24px;
+}
+
+.responsive-video {
+  width: 100%;
+  height: 80%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 412px) {
+  .ml-10 {
+    margin-left: 20px !important;
+  }
+  .ml-20 {
+    margin-left: 70px;
+    margin-top: -90px;
+  }
+  .text-app {
+    display: flex;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .margin {
+    font-size: 10px;
+  }
+  .text-names {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-app {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
